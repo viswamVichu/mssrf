@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+}
+.nav{
+  
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.logo{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.small p{
+    font-size: 18px;  
+}
+span{
+    font-size: 13px;
+}
+.link{
+   
+    display: flex;
+   gap: 30px;
+    padding: 10px 20px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.element{
+    margin-top: 10px;
+}
+.usabout {
+    position: relative;
+    display: inline-block;
+}
+
+.usabout a {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+.down {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.down ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.down ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.down ul li a:hover {
+    background-color: #ddd;
+}
+
+
+.usabout:hover .down {
+    display: block;
+}
+
+#search{
+  padding: 10px;
+}
+input{
+   background-color: #876E52;
+   padding: 15px;
+   border: none;
+   border-radius: 10px;
+   color: black;
+}
+::placeholder {
+    color: black;
+    font-size: 20px;
+    opacity: 1; 
+  }
+.icons{
+    display: flex;
+     gap: 50px;
+}
+.main{
+ 
+    padding: 30px;
+}
+.smallPara{
+    font-size: 25px;
+    color: #876E52;
+    font-weight: 500;
+}
+.arrow{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.jungle{
+    border-radius: 50%;
+}
+.farmer{
+    border-radius: 50%;
+}
+.imageContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paras{
+    margin-top: 10px;
+    width: 340px;
+}
+.donate{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: 2px solid #176772;
+    align-items: center;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.pro p{
+    font-size: 20px;
+    color: #176772;
+    width:200px;
+    padding: 10px;
+}
+.donor{
+    font-size: 15px;
+    font-weight: bold;
+    color: #176772;
+    border: 2px solid #176772;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fisheries {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;  
+}
+
+.section{
+    padding: 20px;
+}
+.whoWeAre{
+    background: #000;
+    padding: 30px;
+}
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;  
+    border-radius: 50%;  
+}
+.round:nth-child(1){
+    margin-left: 700px;
+    height: 150px;
+    width: 150px;
+    background-color: #876E52;
+}
+.round:nth-child(2){
+    margin-right: 400px;
+    height: 300px;
+    width: 300px;
+    background-color: #876E52;
+}
+.round:nth-child(3){
+
+    margin-left: 700px;
+    height: 200px;
+    width: 200px;
+    background-color: #876E52;
+}
+.round:nth-child(4){
+    height: 100px;
+    width: 100px;
+    background-color: #876E52;
+}
+.holds span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.holds span:first-child {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.who{
+    padding: 10px;
+    margin: 10px;
+}
+.place {
+    color:  #876E52;;
+    font-size: 50px;
+}
+.arr{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    gap: 10px;
+    
+}
+.marks{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.images:nth-child(1) {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.images:nth-child(2) {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.images:nth-child(3) {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.images:nth-child(4) {
+    height: 250px;
+    border-radius: 50%;
+
+}
+.making{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.impact{
+    padding: 10px;
+    font-size: 50px;
+    width: 490px;
+    color: #176772;
+}
+.rural{
+    width: 400px;
+    margin-top: 10px;
+}
+.work{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.partnership{
+margin: 20px;
+padding: 20px;
+}
+.partner{
+   display: flex;
+   align-items: center;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+.partner h1{
+    color: #876E52;
+
+}
+.GROUPS{
+    display: flex;
+  justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.groups{
+    height: 50px;
+}
+.donors{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.made h1{
+    color: #876E52;
+    width: 290px;
+    margin-top: 20px;
+}
+.counting{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.counting p{
+    font-size: 15px; 
+}
+.coastal{
+    display: flex;
+    justify-content: center;
+}
+.departments{
+    height: 300px;
+}
+.departments:hover{
+    opacity: 0.5;
+    transition-duration: 2s;
+}
+.departments:nth-child(2){
+margin-top: 200px;
+}
+.departments:nth-child(4){
+    margin-top: 200px;
+}
+.programmes h1{
+    margin-left: 300px;
+    color: #876E52;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.map{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.innovations h1{
+    color: #876E52;
+    
+}
+.news{
+    padding: 10px;
+}
+.events{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #876E52;
+    margin-left:250px ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.newsed{
+    margin-left:450px ; 
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    padding: 40px;
+}
+.used{
+    background: #E2FF6F;
+    text-align: center;
+    color: wheat;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.links{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 200px;
+   padding: 10px;
+}
+
+.quick{
+    font-size: 25px;
+    color: wheat;
+}
+.research{
+    margin-top: 50px;
+    background: #E2FF6F;
+    padding: 40px;
+}
+.linked{
+    padding: 5px;
+}
+.webmail{
+   display: flex;
+   margin-top: 100px;
+   flex-direction: column;
+}
+.intranet{
+    padding: 30px;
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    font-size: 30px;
+    list-style-type: none;
+   
+}
+.ethics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.used h1{
+    color: black;
+}
+.research h1{
+    font-size: 18px;
+    padding: 10px;
+}
+.address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
